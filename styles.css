@@ -54,6 +54,7 @@ body {
 
 #gaq {
     background-color: #0ee7c5;
+    border: 1px solid #0ee7c5;
     padding: 17px 30px 17px 35px;
     font-size: 15px;
     font-weight: 600;
@@ -62,7 +63,7 @@ body {
     min-width: 220px;
     background: linear-gradient(to left,
             rgb(0, 224, 217) 50%,
-            rgb(31, 212, 61) 50%) right;
+            rgb(45, 82, 202) 50%) right;
     background-size: 200%;
     transition: 0.3s ease-out;
 }
@@ -93,3 +94,52 @@ body {
 }
 
 /* nav-bar custom css ends */
+
+/* hero section css start */
+
+.content-box {
+    max-width: 400px;
+
+}
+
+.content-box h5 {
+    color: #0ee7c5;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.content-box h1 {
+    font-size: 50px;
+    color: #00224F;
+    font-weight: 800;
+    text-align: justify;
+}
+
+.content-box p {
+    font-size: 17px;
+    color: #888888;
+    text-align: left;
+}
+
+.cbtn {
+    background-color: #0ee7c5;
+    border: none;
+    padding: 15px 32px;
+    font-weight: 600;
+    background: linear-gradient(to left,
+            rgb(0, 224, 217) 50%,
+            rgb(45, 82, 202) 50%) right;
+    background-size: 200%;
+    transition: 0.3s ease-out;
+}
+
+.cbtn:hover {
+    background-position: left;
+}
+
+.coni {
+    margin-top: 100px;
+}
+
+/* hero section css ends */
