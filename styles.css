@@ -175,7 +175,6 @@ body {
 .f-sec {
     margin-top: 50px;
     margin-bottom: 100px;
-    max-width: 1200px;
 
 }
 
@@ -185,12 +184,6 @@ body {
     font-size: 40px;
     line-height: 52px;
     font-weight: 700;
-    text-align: center;
-}
-
-.f-sec2 {
-    display: flex row;
-    justify-content: center;
     text-align: center;
 }
 
@@ -208,30 +201,6 @@ body {
 
 .cb h4 {
     font-weight: 600;
-}
-
-.card {
-    border: none;
-    background: linear-gradient(to left,
-            rgb(255, 255, 255) 50%,
-            rgb(45, 82, 202) 50%) right;
-    background-size: 200%;
-    transition: 0.3s ease-out;
-    margin: 25px;
-    padding: 15px;
-    height: 50vh;
-}
-
-.card:hover {
-    background-position: left;
-    color: white;
-}
-
-.card img {
-    width: 140px;
-    height: 136x;
-    margin: auto;
-    border-radius: 50%;
 }
 
 /* features section css ends */
