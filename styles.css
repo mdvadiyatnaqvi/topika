@@ -80,7 +80,7 @@ body {
     margin-left: 30px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .container-fluid img {
         display: none;
     }
