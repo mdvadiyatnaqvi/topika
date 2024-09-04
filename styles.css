@@ -189,7 +189,7 @@ body {
 }
 
 .f-sec2 {
-    display: flex;
+    display: flex row;
     justify-content: center;
     text-align: center;
 }
@@ -217,6 +217,7 @@ body {
             rgb(45, 82, 202) 50%) right;
     background-size: 200%;
     transition: 0.3s ease-out;
+    margin: 25px;
     padding: 15px;
     height: 50vh;
 }
