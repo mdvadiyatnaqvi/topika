@@ -85,6 +85,10 @@ body {
     .container-fluid img {
         display: none;
     }
+
+    .coni h1 {
+        font-size: 36px;
+    }
 }
 
 @media (max-width: 1240px) {
@@ -106,14 +110,14 @@ body {
     color: #0ee7c5;
     font-size: 18px;
     font-weight: 600;
-    text-align: justify;
+    text-align: left;
 }
 
 .content-box h1 {
     font-size: 50px;
     color: #00224F;
     font-weight: 800;
-    text-align: justify;
+    text-align: left;
 }
 
 .content-box p {
@@ -140,6 +144,21 @@ body {
 
 .coni {
     margin-top: 100px;
+}
+
+@media (max-width: 1000px) {
+    .c2 {
+        display: none;
+    }
+
+    .coni h1 {
+        font-size: 36px;
+        text-align: left;
+    }
+
+    .c1 {
+        background-image: url("http: //el.commonsupport.com/newwp/topika/wp-content/uploads/2020/09/banner-7.jpg");
+    }
 }
 
 /* hero section css ends */
