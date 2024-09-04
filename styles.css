@@ -203,4 +203,30 @@ body {
     font-weight: 600;
 }
 
+.card {
+    background: linear-gradient(to left,
+            rgb(255, 255, 255) 50%,
+            rgb(45, 82, 202) 50%) right;
+    background-size: 200%;
+    transition: 0.3s ease-out;
+    padding: 20px;
+}
+
+.card:hover {
+    background-position: left;
+    color: white;
+}
+
+.card img {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.card h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
 /* features section css ends */
