@@ -234,3 +234,44 @@ body {
 }
 
 /* features section css ends */
+
+/* about section css starts */
+
+.asec {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #f5f7fa;
+    /* background-color: ; */
+}
+
+.sec-title h2 {
+    text-align: left;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
+.text p {
+    color: #00224F;
+    font-weight: 400;
+}
+
+.l-item li {
+    text-align: left;
+}
+
+.cimg img {
+    max-width: 450px;
+    min-width: 450px;
+}
+
+@media (max-width: 500px) {
+    .cimg img {
+        max-width: 300px;
+        min-width: 300px;
+    }
+}
+
+/* about section css ends */
