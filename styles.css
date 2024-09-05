@@ -176,6 +176,7 @@ body {
 @media (max-width: 768px) {
     .c1 {
         background-size: contain;
+        height: 50vh;
         background-repeat: no-repeat;
     }
 
