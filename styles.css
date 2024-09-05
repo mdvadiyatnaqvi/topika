@@ -231,7 +231,7 @@ body {
 
 .con-col {
     margin: 15px;
-    box-shadow: 0 20px 40px rgb(211 220 232 / 70%);
+    /* box-shadow: 0 20px 40px rgb(211 220 232 / 70%); */
 }
 
 /* features section css ends */
