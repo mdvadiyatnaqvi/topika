@@ -282,7 +282,7 @@ body {
 .se-card {
     max-width: 80%;
     min-width: 80%;
-    margin: auto;
+    margin: 10px auto;
     border: 1px solid white;
     box-shadow: 0 20px 40px rgb(211 220 232 / 70%);
 }
