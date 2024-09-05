@@ -285,18 +285,30 @@ body {
     border: 1px solid white;
 }
 
-.uni {
-    padding: 20px;
-}
-
-.uni h3 {
-    font-weight: 600;
-}
-
 .se-sec {
     background: none;
     padding-bottom: 0%;
     padding-top: 0%;
+}
+
+.ubtn {
+    padding: 13px 34px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    border: 1px solid #888888;
+}
+
+.uibtn {
+    background: linear-gradient(to left,
+            rgb(45, 82, 202) 50%),
+        #0ee7c5 50% right;
+    background-size: 200%;
+    transition: 0.3s ease-out;
+}
+
+.uibtn:hover {
+    background-position: left;
 }
 
 /* services section css ends */
