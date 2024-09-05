@@ -231,6 +231,7 @@ body {
 
 .con-col {
     margin: 15px;
+    box-shadow: 0 20px 40px rgb(211 220 232 / 70%);
 }
 
 /* features section css ends */
@@ -283,13 +284,18 @@ body {
     min-width: 80%;
     margin: auto;
     border: 1px solid white;
+    box-shadow: 0 20px 40px rgb(211 220 232 / 70%);
 }
 
 .se-sec {
     background: none;
     padding-bottom: 0%;
     padding-top: 0%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
 }
+
 
 .ubtn {
     padding: 13px 34px;
@@ -309,6 +315,10 @@ body {
 
 .uibtn:hover {
     background-position: left;
+}
+
+.unibtn {
+    margin-top: 40px;
 }
 
 /* services section css ends */
