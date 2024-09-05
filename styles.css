@@ -275,3 +275,20 @@ body {
 }
 
 /* about section css ends */
+
+/* services section css starts */
+
+.se-col {
+    padding-bottom: 30px;
+    width: 30%;
+    margin: auto;
+    border: 1px solid green;
+}
+
+.s-card {
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+/* services section css ends */
