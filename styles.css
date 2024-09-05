@@ -278,17 +278,28 @@ body {
 
 /* services section css starts */
 
-.se-col {
-    padding-bottom: 30px;
-    width: 30%;
+.se-card {
+    max-width: 80%;
+    min-width: 80%;
     margin: auto;
-    border: 1px solid green;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
 }
 
-.s-card {
-    width: 80%;
-    margin: auto;
-    border: 1px solid red;
+.uni {
+    padding: 20px;
+}
+
+.uni h3 {
+    font-weight: 600;
+}
+
+.se-sec {
+    background: none;
+    padding-bottom: 0%;
+    padding-top: 0%;
 }
 
 /* services section css ends */
